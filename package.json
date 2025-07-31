@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ahoguecode.github.io",
+  "homepage": "https://ahoguecode.github.io/agentic-prototype",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@adobe/react-spectrum": "^3.40.0",
