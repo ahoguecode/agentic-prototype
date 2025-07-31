@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+ # Do Not Run Dev Command
+
+This rule prevents running `npm run dev` commands in terminal instances since we assume it's already running in another terminal.
+
+-- Always assume `npm run dev` is running in an existing terminal do not try to run it after making changes.
