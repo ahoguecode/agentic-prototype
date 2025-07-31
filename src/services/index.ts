@@ -38,6 +38,10 @@ export * from './audio/audioService';
 export * from './audio/audioConstants';
 export * from './audio/audioTypes';
 
+// Export Learning Assistant service
+export * from './learningAssistant/learningAssistantService';
+export * from './tutorials/tutorialService';
+
 // Also export a pre-configured set of APIs
 import { openaiClient, createCompletion, sendMessage, prepareImageForOpenAI, createImageContent, createTextContent } from './openai/openaiService';
 import { claudeClient, createCompletion as createClaudeCompletion, sendMessage as sendClaudeMessage, sendTextMessage } from './claude/claudeService';
